@@ -9,8 +9,38 @@
     width: 300px;
 }
 
-.main-chat {
+.chat {
     height: 100%;
     background-color: #ffffff;
     width: calc( 100vw - 300px);
+}
+
+.side-bar-header {
+    background-color: #253141;
+    height: 100px;
+    padding: 0 20px;
+}
+
+.rooms {
+    background-color: #2F3E51;
+    height: calc( 100% - 100px);
+    padding: 0 20px;
+}
+
+.chat-header {
+    background-color: #FFFFFF;
+    height: 100px;
+    padding: 0 40px;
+}
+
+.messages {
+    background-color: #FAFAFA;
+    height: calc( 100% - 190px);
+    padding: 46px 40px 0;
+}
+
+.form {
+    background-color: #DDDDDD;
+    height: 90px;
+    padding: 20px 40px;
 }
