@@ -1,7 +1,4 @@
 class RoomsController < ApplicationController
-  def index
-  end
-
   def new
     # ヘルパーメソッドに渡すinstance変数
     @room = Room.new
